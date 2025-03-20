@@ -1,0 +1,255 @@
+#bg-swap{
+    background-color: #36B6B2;
+}
+
+.bg-tb{
+    background-image: linear-gradient(rgba(0, 255, 110, 0.400), rgba(0, 213, 255, 0.400));
+    /* background-image: linear-gradient(#74ffb0, #ff5ed2,#7eeaff); */
+}
+
+/* Color Box Welcome screen */
+.box-bg-blue{
+    background-image: linear-gradient(to right, #3c8dbc 0%, #429dcd  51%, #50bdfc  100%);
+}
+.box-bg-green{
+    background-image: linear-gradient(to right, #2dba5c 0%, #3ac869 50%, #53de81  100%);
+}
+.box-bg-yellow{
+    background-image: linear-gradient(to right, #f1e93f 0%, #efe751 50%, #fcf45c 100%);
+}
+.box-bg-red{
+    background-image: linear-gradient(to right, #f73152 0%, #f1425f 50%, #fb4e6b 100%);
+}
+/* End Color Box Welcome screen */
+
+.bg-bl{
+    background-color: #b3d1ff;
+}
+.bg-bl :hover{
+    background-color: #4d94ff;
+}
+
+/* #9ae7d9 */
+/* #4dffb8 */
+.bg-gr{
+    background-color: #09f080;
+}
+
+.btn-blue{
+    background-color: #4d94ff;
+}
+.btn-blue :hover{
+    color: #0800fc;
+}
+
+.btn-grey{
+    background-color: #adad85;
+}
+.btn-yellow{
+    background-color: #ffad33;
+}
+.btn-yellow :hover{
+    background-color: #ffcc80;
+}
+
+/* Small Box Welcome Screen */
+.small-box {
+    position: relative;
+    overflow: hidden;
+  }
+
+.background-icon {
+    position: absolute;
+    bottom: -10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    font-size: 70px; /* Adjust size as needed */
+    opacity: 0.8; /* Make the icon subtle */
+    color: rgba(255, 255, 255, 0.5); /* Adjust color to match your design */
+    z-index: 0; /* Ensure it stays in the background */
+}
+
+.inner {
+    position: relative;
+    z-index: 1; /* Ensure content stays on top */
+}
+
+
+
+table {
+    width: 130%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+th{
+    padding: 10px; /* Add padding for better spacing */
+    text-align: left; /* Align text to the left */
+    word-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+
+.btn-grad-primary {background-image: linear-gradient(to right, #3c8dbc 0%, #429dcd  51%, #50bdfc  100%)}
+.btn-grad-primary {
+   
+   text-align: center;
+   /* text-transform: uppercase; */
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5px;
+   display: inline-block;
+  font-size: 12px;
+ }
+
+ .btn-grad-primary:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.btn-grad-info {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn-grad-info {
+   
+   text-align: center;
+   /* text-transform: uppercase; */
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 5px;
+   display: inline-block;
+  font-size: 12px;
+ }
+
+ .btn-grad-info:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .btn-grad-success {background-image: linear-gradient(to right, #00d647 0%, #00d659 50%, #00ff62  100%)}
+ .btn-grad-success {
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .btn-grad-success:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* background: rgb(214,82,0); */
+.btn-grad-warning{
+    background-image: linear-gradient(to right, #ff851b 0%, #ffa41b 50%, #ff9c1b 100%);
+}
+.btn-grad-warning{
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.btn-grad-warning:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+/* #006064
+#36B6B2 */
+.btn-filter{
+    background-image: linear-gradient(to right, #006064 0%, #36B6B2 75%, #36B6B2 100%);
+}
+.btn-filter{
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.btn-filter:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad-danger{
+    background-image: linear-gradient(to right, #d60000 0%, #d60030 50%, #ff003a 100%);
+}
+.btn-grad-danger{
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.btn-grad-danger:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Pagination */
+
+.pagination-animated {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+  }
+
+.pagination-animated li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.3s, background 0.3s, color 0.3s;
+  }
+.pagination-animated li a:hover {
+    transform: translateY(-5px);
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }       
+
+
+/* Button Back To Top */
+.fp{
+    position: fixed;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    justify-content: right;
+    align-items:baseline;
+    display: none;
+    border-radius: 50%;
+    font-size: 15px;
+    /* width: 50px;
+    height: 50px; */
+    z-index: 9999;
+}
+  
