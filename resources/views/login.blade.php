@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login</title>
     @include('layouts.inc.ext-css')
 </head>
 <body style="background: url(/adminlte/dist/img/tornado2.svg) no-repeat center bottom fixed; background-size: cover;">
-
     <div class="card-header mt-4"  style="border-bottom: none">
-        <h4 class="mt-4 text-bold" style="color: #4dffb8">TERRA INDONUSA JAYA</h4>
+        <h4 class="mt-4 text-bold" style="color: #57e7ad">TERRA INDONUSA JAYA</h4>
     </div>
 <div class="container" style="margin-top: 100px;">   
                 <div class="row align-items-center">

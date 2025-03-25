@@ -37,6 +37,18 @@ Route::get('/siteentry/report', function () {
     return view('siteentry.report');
 });
 
+Route::get('/siteentry/chart', function () {
+    return view('siteentrychart');
+});
+
+Route::get('/siteentry/transportation', function () {
+    return view('siteentry.transportation.index');
+});
+
+Route::get('/siteentry/transportation/create', function () {
+    return view('siteentry.transportation.create');
+});
+
 Route::get('/travelrequest', function () {
     return view('travelrequest.index');
 });
@@ -53,6 +65,10 @@ Route::get('/travelrequest/report', function () {
     return view('travelrequest.report');
 });
 
+Route::get('/travelrequest/chart', function () {
+    return view('travelrequestchart');
+});
+
 Route::get('/cashadvance', function () {
     return view('cashadvance.index');
 });
@@ -65,6 +81,10 @@ Route::get('/cashadvance/report', function () {
     return view('cashadvance.report');
 });
 
+Route::get('/cashadvance/chart', function () {
+    return view('cashadvancechart');
+});
+
 Route::get('/reimbursement', function () {
     return view('reimbursement.index');
 });
@@ -75,6 +95,9 @@ Route::get('/reimbursement/create', function () {
 
 Route::get('/reimbursement/report', function () {
     return view('reimbursement.report');
+});
+Route::get('/reimbursement/chart', function () {
+    return view('reimbursementchart');
 });
 
 Route::get('/roomfacility', function () {

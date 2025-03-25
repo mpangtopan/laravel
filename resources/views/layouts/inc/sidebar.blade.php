@@ -38,6 +38,7 @@
           <li><a href="/roombooking"><i class="fa fa-2xs fa-circle-dot"></i> Room Booking</a></li>
           {{-- <li><a href="/siteentry/monitoring"><i class="fa fa-2xs fa-circle-dot"></i> Site Entry Monitoring</a></li> --}}
           <li><a href="/siteentry/report"><i class="fa fa-2xs fa-circle-dot"></i> Report</a></li>
+          <li><a href="/siteentry/transportation"><i class="fa fa-2xs fa-circle-dot"></i> Transportation</a></li>
         </ul>
       </li>
       <li class="treeview">

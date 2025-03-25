@@ -30,7 +30,7 @@
                             
                         </div>
                         <div>
-                            <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a>
+                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>

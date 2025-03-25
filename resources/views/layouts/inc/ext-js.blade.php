@@ -338,6 +338,203 @@
   });
 </script>
 
+<!-- Travel Request Chart -->
+<script>
+    // Map Summary by POH Chart
+    var ctx = document.getElementById('TravelRequestPOHChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['B1', 'B2', 'B3', 'B4', 'B5'],
+            datasets: [{
+                label: 'Business Unit',
+                data: [100000, 150000, 700000, 200000, 1300000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF', '#f1e93f', '#36A2EB'],
+                borderWidth: 2,
+      borderRadius: 5,
+      borderSkipped: false
+            }]
+        }
+    });
+    // Travel Request by Business Unit Chart
+    var ctx = document.getElementById('TravelRequestBusinessUnitChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['B1', 'B2', 'B3', 'B4', 'B5'],
+            datasets: [{
+                label: 'Business Unit',
+                data: [100000, 150000, 700000, 200000, 1300000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF', '#f1e93f', '#36A2EB']
+            }]
+        }
+    });
+
+    // Travel Request by Department Chart
+    var ctx = document.getElementById('TravelRequestDepartmentChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['HR', 'IT', 'Finance','Engineering'],
+            datasets: [{
+                label: 'Department',
+                data: [10000, 15000, 7000, 20000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF','#f1e93f']
+            }]
+        }
+    });
+
+    // Travel Request by Job Position Chart
+    var ctx = document.getElementById('TravelRequestJobPositionChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Staff', 'Supervisor', 'HOD', 'Manager'],
+            datasets: [{
+                label: 'Job Position',
+                data: [400000, 200000, 150000, 250000],
+                backgroundColor: ['#4BC0C0', '#f1e93f', '#9966FF', '#FF6384']
+            }]
+        }
+    });
+
+    // Travel Request by Status Chart
+    var ctx = document.getElementById('TravelRequestStatusChart').getContext('2d');
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Approved', 'Waiting', 'Cancelled'],
+            datasets: [{
+                label: 'Status',
+                data: [10000, 15000, 7000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF']
+            }]
+        }
+    });
+</script>
+
+<!-- Cash Advance Chart -->
+<script>
+    // TravelRequest by Business Unit Chart
+    var ctx = document.getElementById('TravelRequestBusinessUnitChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['B1', 'B2', 'B3', 'B4', 'B5'],
+            datasets: [{
+                label: 'Business Unit',
+                data: [100000, 150000, 700000, 200000, 1300000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF', '#f1e93f', '#36A2EB']
+            }]
+        }
+    });
+
+    // TravelRequest by Department Chart
+    var ctx = document.getElementById('TravelRequestDepartmentChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['HR', 'IT', 'Finance','Engineering'],
+            datasets: [{
+                label: 'Department',
+                data: [10000, 15000, 7000, 20000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF','#f1e93f']
+            }]
+        }
+    });
+
+    // TravelRequest by Job Position Chart
+    var ctx = document.getElementById('TravelRequestJobPositionChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Staff', 'Supervisor', 'HOD', 'Manager'],
+            datasets: [{
+                label: 'Job Position',
+                data: [400000, 200000, 150000, 250000],
+                backgroundColor: ['#4BC0C0', '#f1e93f', '#9966FF', '#FF6384']
+            }]
+        }
+    });
+
+    // TravelRequest by Status Chart
+    var ctx = document.getElementById('TravelRequestStatusChart').getContext('2d');
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Approved', 'Waiting', 'Cancelled'],
+            datasets: [{
+                label: 'Status',
+                data: [10000, 15000, 7000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF']
+            }]
+        }
+    });
+</script>
+
+<!-- Reimbursement Chart -->
+<script>
+    // Reimbursement by Business Unit Chart
+    var ctx = document.getElementById('ReimbursementBusinessUnitChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['B1', 'B2', 'B3', 'B4', 'B5'],
+            datasets: [{
+                label: 'Business Unit',
+                data: [100000, 150000, 700000, 200000, 1300000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF', '#f1e93f', '#36A2EB']
+            }]
+        }
+    });
+
+    // Reimbursement by Department Chart
+    var ctx = document.getElementById('ReimbursementDepartmentChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['HR', 'IT', 'Finance','Engineering'],
+            datasets: [{
+                label: 'Department',
+                data: [10000, 15000, 7000, 20000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF','#f1e93f']
+            }]
+        }
+    });
+
+    // Reimbursement by Job Position Chart
+    var ctx = document.getElementById('ReimbursementJobPositionChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Staff', 'Supervisor', 'HOD', 'Manager'],
+            datasets: [{
+                label: 'Job Position',
+                data: [400000, 200000, 150000, 250000],
+                backgroundColor: ['#4BC0C0', '#f1e93f', '#9966FF', '#FF6384']
+            }]
+        }
+    });
+
+    // Reimbursement by Status Chart
+    var ctx = document.getElementById('ReimbursementStatusChart').getContext('2d');
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Approved', 'Waiting', 'Cancelled'],
+            datasets: [{
+                label: 'Status',
+                data: [10000, 15000, 7000],
+                backgroundColor: ['#4BC0C0', '#FF6384', '#9966FF']
+            }]
+        }
+    });
+</script>
+
+
 <!-- Date -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -408,7 +605,7 @@
 	function formatNumber(amount) {
 		return parseFloat(amount).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 	}
-	function setCashAdvanceDetail() {
+	function setTravelRequestDetail() {
 		var cash_advance_id = $('#js-cash-advance-id').val() || '';
 		$.ajax({
             type: 'GET',
@@ -482,7 +679,7 @@
         	setPlafondDetail();
     	});
     	$('#js-cash-advance-id').on('change', function(){
-    		setCashAdvanceDetail();
+    		setTravelRequestDetail();
     	});
 		$(".js-amount").on("blur", function(){
 			var val = this.value || 0;
@@ -645,7 +842,8 @@
 </script>
 
 <!-- Select2 -->
-<script src="/adminlte/bower_components/select2/dist/js/select2.full.min.js"></script>
+{{-- <script src="/adminlte/bower_components/select2/dist/js/select2.full.min.js"></script> --}}
+<script src="/adminlte/plugind/select2/js/select2.full.min.js"></script>
 <!-- InputMask -->
 <script src="/adminlte/plugins/input-mask/jquery.inputmask.js"></script>
 <script src="/adminlte/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
@@ -726,5 +924,80 @@
 </script>
 
 
+<script type="text/javascript">
 
+    window.onload = function () {
+        var chart1 = new CanvasJS.Chart("chartContainer1", {
+            data: [              
+            {
+                // Change type to "doughnut", "line", "splineArea", etc.
+                type: "area",
+                dataPoints: [
+                    { label: "apple",  y: 10  },
+                    { label: "orange", y: 15  },
+                    { label: "banana", y: 25  },
+                    { label: "mango",  y: 30  },
+                    { label: "grape",  y: 28  }
+                ]
+            }
+            ]
+        });
+        chart1.render();
+
+        var chart2 = new CanvasJS.Chart("chartContainer2", {
+            data: [              
+            {
+                // Change type to "doughnut", "line", "splineArea", etc.
+                type: "column",
+                dataPoints: [
+                    { label: "apple",  y: 10  },
+                    { label: "orange", y: 15  },
+                    { label: "banana", y: 25  },
+                    { label: "mango",  y: 30  },
+                    { label: "grape",  y: 28  }
+                ]
+            }
+            ]
+        });
+        chart2.render();
+        
+        var chart3 = new CanvasJS.Chart("chartContainer3", {
+            data: [              
+            {
+                // Change type to "doughnut", "line", "splineArea", etc.
+                type: "stepArea",
+                dataPoints: [
+                    { label: "apple",  y: 10  },
+                    { label: "orange", y: 15  },
+                    { label: "banana", y: 25  },
+                    { label: "mango",  y: 30  },
+                    { label: "grape",  y: 28  }
+                ]
+            }
+            ]
+        });
+        chart3.render();
+
+        var chart4 = new CanvasJS.Chart("chartContainer4", {
+	animationEnabled: true,
+	
+	data: [{
+		type: "pie",
+		startAngle: 240,
+		yValueFormatString: "##0.00\"%\"",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y: 79.45, label: "Google"},
+			{y: 7.31, label: "Bing"},
+			{y: 7.06, label: "Baidu"},
+			{y: 4.91, label: "Yahoo"},
+			{y: 1.26, label: "Others"}
+		]
+	}]
+});
+chart4.render();
+
+
+}
+</script>
   

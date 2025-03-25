@@ -18,7 +18,7 @@
     @include('layouts.inc.sidebar')
     
     <div class="content-wrapper" >
-      <section class="content-header">
+      {{-- <section class="content-header">
         <h1 class="text-bold" style="color: #36B6B2">
           TERRA
           <small>Facility Management</small>
@@ -27,7 +27,7 @@
           <li><a href="#"> Home</a></li>
           <li class="active">Dashboard</li>
         </ol>
-      </section>
+      </section> --}}
       
       <section class="content">
         @yield('content')

@@ -30,7 +30,7 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #36B6B2;
+    background-color: #006064;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -42,11 +42,11 @@
     background-color: #f6f6f6;
   }
   .logo-small {
-    color: #36B6B2;
+    color: #006064;
     font-size: 50px;
   }
   .logo {
-    color: #36B6B2;
+    color: #006064;
     font-size: 200px;
   }
   .thumbnail {
@@ -61,13 +61,13 @@
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #36B6B2;
+    color: #006064;
   }
   .carousel-indicators li {
-    border-color: #36B6B2;
+    border-color: #006064;
   }
   .carousel-indicators li.active {
-    background-color: #36B6B2;
+    background-color: #006064;
   }
   .item h4 {
     font-size: 19px;
@@ -80,7 +80,7 @@
     font-style: normal;
   }
   .panel {
-    border: 1px solid #36B6B2; 
+    border: 1px solid #006064; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
@@ -88,13 +88,13 @@
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-    border: 1px solid #36B6B2;
+    border: 1px solid #006064;
     background-color: #fff !important;
-    color: #36B6B2;
+    color: #006064;
   }
   .panel-heading {
     color: #fff !important;
-    background-color: #36B6B2 !important;
+    background-color: #006064 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -114,12 +114,12 @@
   }
   .panel-footer .btn {
     margin: 15px 0;
-    background-color: #36B6B2;
+    background-color: #006064;
     color: #fff;
   }
   .navbar {
     margin-bottom: 0;
-    background-color: #36B6B2;
+    background-color: #006064;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -132,7 +132,7 @@
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #36B6B2 !important;
+    color: #006064 !important;
     background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -142,7 +142,7 @@
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #36B6B2;
+    color: #006064;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -214,10 +214,10 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Terra Nusa Jaya</h1> 
+  <h1>Terra Indonusa Jaya</h1> 
   <p>We specialize in blablabla</p> 
   <div>
-    <img src="/adminlte/dist/img/photo1.jpg" class="card-img-top">
+    {{-- <img src="/adminlte/dist/img/photo1.png" class="card-img-top"> --}}
 </div>
   {{-- <form>
     <div class="input-group">

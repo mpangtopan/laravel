@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Travel Request</h3></div>
+<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Transportation Management</h3></div>
+
 <div class="card">
     <div class="card-header">
         <h2 class="mt-0">
@@ -18,11 +19,23 @@
                             <div class=""> --}}
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <label>Business Unit</label>
+                                        <label>Transportation No.</label>
                                         <input type="text" class="form-control" value=""> 
                                     </div>
                                     <div class="col-md-6">
-                                        <label>Department</label>
+                                        <label>Date Range</label>
+                                        <input type="text" class="form-control" value=""> 
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Vehicle</label>
+                                        <input type="text" class="form-control" value=""> 
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Primary Driver</label>
+                                        <input type="text" class="form-control" value=""> 
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Secondary Driver</label>
                                         <input type="text" class="form-control" value=""> 
                                     </div>
                                     <div class="col-md-6">
@@ -38,7 +51,6 @@
                             
                         </div>
                         <div>
-                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>
@@ -46,17 +58,15 @@
             </div>
         </div>
     </div>
-    <div class="card-body">
+      <div class="card-body">
         <div class="row">
             <div class="col-xl-12">
                 <div class="table-responsive col-lg p-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <a href="/travelrequest/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Request</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Approval</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">History</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Monitor</a>
+                            <a href="/siteentry/transportation/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Process</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Done</a>
                         </div>
                         <div>
                             <a href="" class="btn-grad-success btn-sm mb-2 shadow-sm">Export</a>
@@ -66,14 +76,14 @@
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
                                 <table class="table-striped table-bordered table-hover">
-                                    <thead class="bg-bl" style="font-size: 14px">
+                                    <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
                                             <th>Action</th>
                                             <th data-order="desc">Request No</th>
                                             <th>Request Date</th>
-                                            <th>Traveler Type</th>
-                                            <th>Traveler Name</th>
                                             <th>Purpose</th>
+                                            <th>Arrival Date</th>
+                                            <th>Departure Date</th>
                                             <th>Requestor Name</th>
                                             <th>Status</th>
                                             <th>Next Action</th>
@@ -83,32 +93,27 @@
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
-                                            <td>
-                                                <a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
-                                                </a>
-                                                <a href="#" class="btn-grad-info btn-sm">
-                                                    Room
-                                                </a>
-                                            </td>
+                                                </a></td>
                                             <td>001</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
-                                            <td>COMPLETED</td>
+                                            <td>WAITING_APPROVAL</td>
                                             <td>APPROVAL LEVEL 1</td>
                                             <td>Daenerys Targaryen</td>
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>002</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -118,12 +123,12 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>003</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -133,12 +138,12 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>004</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -148,12 +153,12 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>005</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -163,12 +168,12 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>006</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -178,12 +183,12 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="" class="btn btn-sm btn-warning">
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
                                             <td>007</td>
                                             <td>2025-03-03</td>
-                                            <td>Employee</td>
+                                            <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
@@ -198,17 +203,23 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
+            
         </div>
+        
       </div>
-      <nav class="p-2" aria-label="Page navigation">
-        <ul class="pagination-animated">
-          <li><a href="#">&laquo;</a></li>
-          <li><a href="#">&lt;</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">&gt;</a></li>
-          <li><a href="#" aria-label="Next">&raquo;</a></li>
-        </ul>
-      </nav>
+      
+        <nav class="p-2" aria-label="Page navigation">
+          <ul class="pagination-animated">
+            <li><a href="#" aria-label="Previous">&laquo;</a></li>
+            <li><a href="#">&lt;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">&gt;</a></li>
+            <li><a href="#" aria-label="Next">&raquo;</a></li>
+          </ul>
+        </nav>
+    
 </div>
+
 @endsection

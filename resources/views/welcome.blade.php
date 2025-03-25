@@ -44,25 +44,26 @@
           <div class="box-bg-green small-box">
             <div class="inner">
               <h3>95<sup style="font-size: 20px"></sup></h3>
-              <p>Average of Pay</p>
+              <p>Average Travel /Month</p>
             </div>
-            <i class="fa-solid fa-sack-dollar background-icon"></i>
+            {{-- <i class="fa-solid fa-sack-dollar background-icon"></i> --}}
+            <i class="fa-solid fa-plane background-icon"></i>
           </div>
         </div>
         <div class="col-lg-3 col-6">
           <div class="box-bg-yellow small-box">
             <div class="inner">
               <h3>46<sup style="font-size: 20px"></sup></h3>
-              <p>Average of Age</p>
+              <p>Average Site Entry /Month</p>
             </div>
-            <i class="fa-solid fa-cake-candles background-icon"></i>  
+            <i class="fa-solid fa-clipboard-user background-icon"></i>  
           </div>
         </div>
         <div class="col-lg-3 col-6">
           <div class="box-bg-red small-box">
             <div class="inner">
               <h3>2.50<sup style="font-size: 20px">%</sup></h3>
-              <p>Turn Over Rate</p>
+              <p>Cancelled Rate</p>
             </div>
             <i class="fa-solid fa-percent background-icon"></i>  
           </div>
