@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Transportation Management</h3></div>
+<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Transportation Arrangement</h3></div>
 
 <div class="card">
     <div class="card-header">
@@ -64,7 +64,7 @@
                 <div class="table-responsive col-lg p-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <a href="/siteentry/transportation/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
+                            <a href="/transportation/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
                             <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Process</a>
                             <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Done</a>
                         </div>
@@ -75,9 +75,10 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-bordered table-hover">
+                                <table class="table-striped table-bordered table-hover" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
+                                            <th><input type="checkbox" id="select-all"></th>
                                             <th>Action</th>
                                             <th data-order="desc">Request No</th>
                                             <th>Request Date</th>
@@ -93,6 +94,7 @@
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -108,6 +110,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -123,6 +126,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -138,6 +142,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -153,6 +158,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -168,6 +174,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
@@ -183,6 +190,7 @@
                                             <td>2025-02-21 10:26:09</td>
                                         </tr>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>

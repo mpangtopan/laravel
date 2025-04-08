@@ -1,7 +1,7 @@
 
     <a href="/" class="logo" style="color: #f2f4f6; font-size: 40px;">
-      <span class="logo-mini"><b>TFM</b></span>
-      <span class="logo-lg"><b>TerraFM</b></span>
+      <span class="logo-mini"><small>TEFMS</small></span>
+      <span class="logo-lg"><b>TEFMS</b></span>
     </a>
 
 {{-- <nav class="main-header navbar nav navbar-expand navbar-static-top"> --}}

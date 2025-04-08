@@ -3,43 +3,6 @@
 @section('content')
 <div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Travel Request Report</h3></div>
 
-{{-- chart --}}
-{{-- <div class="row mb-2">
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <h5>Chart1</h5>
-                <div id="chartContainer1" style="height: 200px; width: 100%;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <h5>Chart2</h5>
-                <div id="chartContainer2" style="height: 200px; width: 100%;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <h5>Chart3</h5>
-                <div id="chartContainer3" style="height: 200px; width: 100%;"></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <h5>Chart4</h5>
-                <div id="chartContainer4" style="height: 200px; width: 100%;"></div>
-            </div>
-        </div>
-    </div>
-</div> --}}
-
-
 <div class="card">
     <div class="card-header">
         <h2 class="mt-0">
@@ -95,9 +58,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center mt-2">
-                        
+                        <div></div>
                         <div>
-                            <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a>
+                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>

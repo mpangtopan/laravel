@@ -1126,6 +1126,7 @@ a:focus {
   height: 175px;
   padding: 10px;
   text-align: center;
+  background-image: linear-gradient(45deg, #006064 0%, #36B6B2 60%, #006064 100%)!important;
 }
 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > img {
   z-index: 5;
@@ -1169,7 +1170,8 @@ a:focus {
   }
 }
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-image: linear-gradient(to right, #4AC29A, #BDFFF3);
   padding: 10px;
 }
 .navbar-nav > .user-menu > .dropdown-menu > .user-footer:before,

@@ -19,7 +19,7 @@
                                 <div class="card mb-4" style="border-color: #26d496">
                                     <div class="box-body">
                                         <div class="row form-horizontal ">
-                                        <div class="col-md-5">
+                                            <div class="col-md-5">
                                             <div class="form-group">
                                                 <label for="request_date" class="col-md-5">Request Date</label>
                                                 <div class="col-md-7">
@@ -62,8 +62,8 @@
                                                     <select id="plafond_id" class="form-control select2" name="plafond_id"></select>
                                                 </div>
                                             </div>										
-                                        </div>
-                                        <div class="col-md-7">
+                                            </div>
+                                            <div class="col-md-7">
                                             <div class="form-group">
                                                 <label for="employee_id" class="col-md-4">Name</label>
                                                 <div class="col-md-8">
@@ -101,8 +101,8 @@
                                                     <input id="medical_balance_amount" class="form-control" readonly name="medical_balance_amount" type="text">																									
                                                 </div>
                                             </div>
+                                            </div>
                                         </div>
-                                    </div>
                                     </div>
                                 </div>
                                 <div class="card mb-4" style="border-color: #26d496">
@@ -183,21 +183,15 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            
-                            <div class="box-footer">
-                                <a href="https://terrafm.dev.akseshr.com/transaction/reimbursement" class="btn btn-default"> Back </a>
-                                {{-- <input class="btn btn-success pull-right" type="submit" value="Submit"> --}}
-                                <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm submit">Submit</a>
-                                {{-- <a href="#" class="btn btn-success float-end" onclick="document.getElementById('submitBtn').submit();">Submit</a> --}}
-
-                            </div>
-                        </form>
-                        
+                                </div>    
                     </div>
                 </div>
             </section>
         </div>
+        <div class="card-footer">
+                    <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm  pull-right">Submit</a>
+        </div>
+            </form>
     </div>
 
 @endsection

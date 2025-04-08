@@ -50,10 +50,8 @@
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
                             <a href="/meal/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Request</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Approval</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">History</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Monitor</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Cancel</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Mass Done</a>
                         </div>
                         <div>
                             <a href="" class="btn-grad-success btn-sm mb-2 shadow-sm">Export</a>
@@ -62,28 +60,50 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
-                                            <th data-column-id="id" data-type="numeric" data-visible="false" data-identifier="true">ID</th>
+                                            <th data-column-id="id" data-type="numeric" data-width="5%" data-align="center" 
+                data-header-align="center" data-sortable="false">
+                <input type="checkbox" id="select-all"></th>
+                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
+                                            data-header-align="center" data-sortable="false">Action</th>
                                             <th data-column-id="order_no">Order No.</th>
                                             <th data-column-id="order_date">Order Date</th>
                                             <th data-column-id="status">Status</th>
-                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
-                                                data-header-align="center" data-sortable="false">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td>
                                                 <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
                                             </td>
+                                            <td>000000009</td>
+                                            <td>21-03-2025</td>
+                                            <td>open</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td>000000008</td>
+                                            <td>11-02-2025</td>
+                                            <td>completed</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td>000000005</td>
+                                            <td>11-02-2025</td>
+                                            <td>canceled</td>
                                         </tr>
                                     </tbody>
                                 </table>

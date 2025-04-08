@@ -89,14 +89,12 @@
                         </div>
                     </div>
                     <div class="box-footer">
-                        <a href="https://terrafm.dev.akseshr.com/transaction/meal_order" class="btn btn-default"> Back </a>
-                        <input class="btn btn-success pull-right" type="submit" value="Submit">
+                        <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
                     </div>
                     </form>
                     </div>
                 </div>
         </section>
-        <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
         </div>
     </div>
 

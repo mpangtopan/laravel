@@ -80,9 +80,9 @@
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
                             <a href="/cashadvance/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Request</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Approval</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">History</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Request</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Approval</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My History</a>
                             <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Monitor</a>
                         </div>
                         <div>
@@ -92,7 +92,7 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
                                             <th>Action</th>
@@ -114,6 +114,49 @@
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
+                                            <td>000000001</td>
+                                            <td>2024-06-21</td>
+                                            <td>E0001</td>
+                                            <td>JON SNOW</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>Jon Snow</td>
+                                            <td>WAITING_APPROVAL</td>
+                                            <td>APPROVAL LEVEL 1</td>
+                                            <td>Daenerys Targaryen</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
+                                                View
+                                                </a></td>
+                                            <td>000000002</td>
+                                            <td>2024-06-21</td>
+                                            <td>E0001</td>
+                                            <td>JON SNOW</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>Jon Snow</td>
+                                            <td>WAITING_APPROVAL</td>
+                                            <td>APPROVAL LEVEL 1</td>
+                                            <td>Daenerys Targaryen</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
+                                                View
+                                                </a></td>
+                                            <td>000000003</td>
+                                            <td>2024-06-21</td>
+                                            <td>E0001</td>
+                                            <td>JON SNOW</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>1000000</td>
+                                            <td>Jon Snow</td>
+                                            <td>WAITING_APPROVAL</td>
+                                            <td>APPROVAL LEVEL 1</td>
+                                            <td>Daenerys Targaryen</td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -370,7 +370,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
+            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
         </div>
     </div>
 

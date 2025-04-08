@@ -53,27 +53,33 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
-                                            <th data-column-id="id" data-order="asc" data-type="numeric" data-identifier="true"
-                                                data-visible="false">ID</th>
-                                            <th data-column-id="code">Code</th>
-                                            <th data-column-id="name">Name</th>
                                             <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
                                                 data-header-align="center" data-sortable="false">Action</th>
+                                            <th data-column-id="code">Code</th>
+                                            <th data-column-id="name">Name</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
                                             <td>
                                                 <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
                                             </td>
+                                            <td>ASN</td>
+                                            <td>Akses Solusi Nusantara</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td>IBN</td>
+                                            <td>Indo Bara Nusantara</td>
                                         </tr>
                                     </tbody>
                                 </table>

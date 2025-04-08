@@ -22,21 +22,21 @@
                                     
                                     {{-- <label class="control-label" style="text-align: left;" for="date_range">Date</label>
                                     <input id="date_range" class="form-control" autocomplete="off" name="date_range" type="text" value=""> --}}
-                                    <div class="form-group">
-                                        <label for="request_date">Date</label>
-                                        <div>
-                                            <input id="request_date" class="form-control request_date" data-bv-message="Required" required name="request_date" type="date" value="2025-02-26">
-                                        </div>
-                                    </div>
-                                
+                                    
+                                    <label for="request_date">Date</label>
+                                    <input id="request_date" class="form-control request_date" data-bv-message="Required" required name="request_date" type="date" value="2025-02-26">
+                                    
                                     <label for="room_id" >Employee</label>
                                     <select id="employee_id" class="form-control" name="employee_id[]"><option value="1">[E0001] JON SNOW</option><option value="2">[E0002] SAMWELL TARLY</option><option value="3">[E0003] DAENERYS TARGARYEN</option><option value="4">[E0004] PAUL ATREIDES</option><option value="5">[E0005] FEYD-RAUTHA HARKONNEN</option></select>
                                     
-                                    <label for="room_id" >Room</label>
-                                    <select id="room_id" class="form-control" name="room_id[]"><option value="2">[R001] - Deluxe</option></select>
+                                    <label for="status" >Area</label>
+                                    <select class="form-control" name="status[]"><option value="Open">Area 1</option><option value="Cancelled">Area 2</option></select>
                                     
                             </div>
                             <div class="col-md-6">
+                                    <label for="room_id" >Room</label>
+                                    <select id="room_id" class="form-control" name="room_id[]"><option value="2">[R001] - Deluxe</option></select>
+                                    
                                     <label for="room_bed_id" >Bed</label>
                                     <select id="room_bed_id" class="form-control" name="room_bed_id[]"><option value="7">[R00101] Bed 1</option><option value="8">[R00102] Bed 2</option><option value="10">[R00103] Bed 3</option></select>
                                     
@@ -82,37 +82,76 @@
                                 <table class="table-striped table-hover table-bordered">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
+                                            <th><input type="checkbox" id="select-all"></th>
+                                            <th>Action</th>
                                             <th data-column-id="id" data-type="numeric" data-visible="false" data-identifier="true">ID</th>
                                             <th data-column-id="booking_no">Booking No.</th>
                                             <th data-column-id="date">Date</th>
                                             <th data-column-id="employee">Employee</th>
+                                            <th data-column-id="area">Area</th>
                                             <th data-column-id="room">Room</th>
                                             <th data-column-id="bed">Bed</th>
                                             <th data-column-id="start_date">Start Date</th>
                                             <th data-column-id="end_date">End Date</th>
                                             <th data-column-id="remarks">Remarks</th>
                                             <th data-column-id="status">Status</th>
-                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
-                                                data-header-align="center" data-sortable="false">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td>000000003</td>
+                                            <td>2025-02-03</td>
+                                            <td>Boby Aditya Aguinda</td>
+                                            <td>Area1</td>
+                                            <td>[R9] Standard</td>
+                                            <td>[NB] Bed NANa</td>
+                                            <td>2025-02-03</td>
+                                            <td>2025-02-04</td>
+                                            <td>tiga</td>
+                                            <td>Completed</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td>
                                                 <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
                                             </td>
+                                            <td></td>
+                                            <td>000000003</td>
+                                            <td>2025-02-03</td>
+                                            <td>Boby Aditya Aguinda</td>
+                                            <td>Area1</td>
+                                            <td>[R9] Standard</td>
+                                            <td>[NB] Bed NANa</td>
+                                            <td>2025-02-03</td>
+                                            <td>2025-02-04</td>
+                                            <td>tiga</td>
+                                            <td>Open</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td></td>
+                                            <td>000000003</td>
+                                            <td>2025-02-03</td>
+                                            <td>Boby Aditya Aguinda</td>
+                                            <td>Area1</td>
+                                            <td>[R9] Standard</td>
+                                            <td>[NB] Bed NANa</td>
+                                            <td>2025-02-03</td>
+                                            <td>2025-02-04</td>
+                                            <td>tiga</td>
+                                            <td>Canceled</td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -36,9 +36,19 @@
         <ul class="treeview-menu nav nav-treeview">
           <li><a href="/siteentry"><i class="fa fa-2xs fa-circle-dot"></i> Submit Site Entry</a></li>
           <li><a href="/roombooking"><i class="fa fa-2xs fa-circle-dot"></i> Room Booking</a></li>
-          {{-- <li><a href="/siteentry/monitoring"><i class="fa fa-2xs fa-circle-dot"></i> Site Entry Monitoring</a></li> --}}
           <li><a href="/siteentry/report"><i class="fa fa-2xs fa-circle-dot"></i> Report</a></li>
-          <li><a href="/siteentry/transportation"><i class="fa fa-2xs fa-circle-dot"></i> Transportation</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#" >
+          <i class="fa-solid fa-lg fa-car"></i>
+          <span > Transportation</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu nav nav-treeview">
+          <li><a href="/transportation"><i class="fa fa-2xs fa-circle-dot"></i> Transport Arrangement</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -53,6 +63,19 @@
           <li><a href="/roombooking"><i class="fa fa-2xs fa-circle-dot"></i> Room Booking</a></li>
           <li><a href="/roomcleaning"><i class="fa fa-2xs fa-circle-dot"></i> Room Cleaning</a></li>
           <li><a href="/roomfacility"><i class="fa fa-2xs fa-circle-dot"></i> Room Facility Maintenance</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#" >
+          <i class="fa-solid fa-lg fa-utensils"></i>
+          <span > Meal</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu nav nav-treeview">
+          <li><a href="/meal"><i class="fa fa-2xs fa-circle-dot"></i> Submit Meal</a></li>
+          <li><a href="/meal/report"><i class="fa fa-2xs fa-circle-dot"></i> Report</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -83,15 +106,53 @@
       </li>
       <li class="treeview">
         <a href="#" >
-          <i class="fa-solid fa-lg fa-utensils"></i>
-          <span > Meal</span>
+          <i class="fa-solid fa-lg fa-square-check"></i>
+          <span > Pre-Check</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
         </a>
         <ul class="treeview-menu nav nav-treeview">
-          <li><a href="/meal"><i class="fa fa-2xs fa-circle-dot"></i> Submit Meal</a></li>
-          <li><a href="/meal/report"><i class="fa fa-2xs fa-circle-dot"></i> Report</a></li>
+          <li class="treeview">
+            <a href="" >
+              <i class="fa fa-2xs fa-circle-dot"></i>
+              <span > Unit</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu nav nav-treeview">
+              <li><a href="/precheck/unit/master"><i class="fa fa-2xs fa-circle"></i> Master Question</a></li>
+              <li><a href="/precheck/unit/transaction"><i class="fa fa-2xs fa-circle"></i> Data Transaction</a></li>
+              <li><a href="/precheck/unit/schedule"><i class="fa fa-2xs fa-circle"></i> Unit Schedule</a></li>
+            </ul>
+          </li>
+          <li class="treeview">
+            <a href="" >
+              <i class="fa fa-2xs fa-circle-dot"></i>
+              <span > Driver</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu nav nav-treeview">
+              <li><a href="/precheck/driver/master"><i class="fa fa-2xs fa-circle"></i> Master Question</a></li>
+              <li><a href="/precheck/driver/transaction"><i class="fa fa-2xs fa-circle"></i> Data Transaction</a></li>
+            </ul>
+          </li>
+          <li class="treeview">
+            <a href="" >
+              <i class="fa fa-2xs fa-circle-dot"></i>
+              <span > Passenger</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu nav nav-treeview">
+              <li><a href="/precheck/passenger/master"><i class="fa fa-2xs fa-circle"></i> Master Question</a></li>
+              <li><a href="/precheck/passenger/transaction"><i class="fa fa-2xs fa-circle"></i> Data Transaction</a></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li class="treeview">
@@ -114,8 +175,8 @@
             <ul class="treeview-menu nav nav-treeview">
               <li><a href="/systemsetting/company/bank"><i class="fa fa-2xs fa-circle"></i> Bank</a></li>
               <li><a href="/systemsetting/company/businessunit"><i class="fa fa-2xs fa-circle"></i> Business Unit</a></li>
-              <li><a href="/systemsetting/company/costcentre"><i class="fa fa-2xs fa-circle"></i> Cost Center</a></li>
-              <li><a href="/systemsetting/company/departement"><i class="fa fa-2xs fa-circle"></i> Departement</a></li>
+              <li><a href="/systemsetting/company/costcenter"><i class="fa fa-2xs fa-circle"></i> Cost Center</a></li>
+              <li><a href="/systemsetting/company/department"><i class="fa fa-2xs fa-circle"></i> Department</a></li>
               <li><a href="/systemsetting/company/location"><i class="fa fa-2xs fa-circle"></i> Location</a></li>
               <li><a href="/systemsetting/company/project"><i class="fa fa-2xs fa-circle"></i> Project</a></li>
               <li><a href="/systemsetting/company/shift"><i class="fa fa-2xs fa-circle"></i> Shift</a></li>
@@ -192,7 +253,7 @@
         <ul class="treeview-menu nav nav-treeview">
           <li><a href="/systemadministrator/userrole"><i class="fa fa-2xs fa-circle-dot"></i> User Role</a></li>
           <li><a href="/systemadministrator/useradministation"><i class="fa fa-2xs fa-circle-dot"></i> User Administration</a></li>
-          <li><a href="/systemadministrator/broadcast"><i class="fa fa-2xs fa-circle-dot"></i> Boroadcast Notification</a></li>
+          <li><a href="/systemadministrator/broadcast"><i class="fa fa-2xs fa-circle-dot"></i> Broadcast Notification</a></li>
         </ul>
       </li>
 

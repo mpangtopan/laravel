@@ -613,15 +613,9 @@
                         </div> --}}
                     </div>
                 </div>
-                <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
+                <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
             </section>
         </div>
     </div>
-    {{-- <div class="d-flex justify-content-between">     
-        <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Back</a>
-        <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit / Save / Create</a>
-        <button class="btn btn-danger"> Back</button>
-        <button class="btn btn-primary"> Submit</button>
-    </div> --}}
 @endsection
 

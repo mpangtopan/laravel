@@ -23,10 +23,14 @@
                                     <label for="facility_id">Facility</label>
                                     <select id="facility_id" class="form-control" name="facility_id[]"><option value="1">Google TV 40 Inchp</option><option value="2">Sistem keamanan 24 jam</option><option value="3">Mesin Kopi</option></select>
                                 
+                                    <label for="status" >Area</label>
+                                    <select class="form-control" name="status[]"><option value="Open">Area 1</option><option value="Cancelled">Area 2</option></select>
+                                    
+                                </div>
+                                <div class="col-md-6">
                                     <label for="room_id">Room</label>
                                     <select id="room_id" class="form-control" name="room_id[]"><option value="2">[R001] - Deluxe</option><option value="3">[R9] - Standard</option></select>                             
-                            </div>
-                            <div class="col-md-6">
+                                    
                                     <label for="status">Status</label>
                                     <select class="form-control" name="status[]"><option value="Open">Open</option><option value="On Maintenance">On Maintenance</option><option value="Done">Done</option></select>
                                 
@@ -65,31 +69,59 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
-                                            <th data-column-id="id" data-type="numeric" data-visible="false" data-identifier="true">ID</th>
+                                            <th><input type="checkbox" id="select-all"></th>
+                                            <th>Action</th>
                                             <th data-column-id="maintenance_code">Maintenance No.</th>
+                                            <th data-column-id="area">Area</th>
                                             <th data-column-id="room_name">Room</th>
                                             <th data-column-id="facility_name">Facility</th>
                                             <th data-column-id="status">Status</th>
                                             <th data-column-id="note">Note</th>
-                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
-                                                data-header-align="center" data-sortable="false">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td>000000011</td>
+                                            <td>Area1</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>Sistem keamanan 24 jam</td>
+                                            <td>On Maintenance</td>
                                             <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
                                             </td>
+                                            <td>000000010</td>
+                                            <td>Area3</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>Sistem keamanan 24 jam</td>
+                                            <td>Done</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td>000000009</td>
+                                            <td>Area2</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>Sistem keamanan 24 jam</td>
+                                            <td>Done</td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

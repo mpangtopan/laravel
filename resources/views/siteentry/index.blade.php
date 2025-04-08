@@ -2,93 +2,6 @@
 
 @section('content')
 <div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3"> Site Entry Access</h3></div>
-{{-- Chart Dashboard --}}
-{{-- <div class="row">
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Department</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STDChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Business Unit</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STEChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Job Position</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STJChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Status</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STSChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Cost Project Code</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STCChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-4">
-        <div class="card mb-4">
-          <div id="bg-swap" class="card-header">
-            <h8 class="small small-chartname">Site Entry by Lupsump Amount</h8>
-          </div>
-            <div class="card-body">
-              <div class="tab-content p-0">
-                <div class="chart tab-pane active" id="revenue-chart"
-                    style="position: relative; height: 270px;"><canvas id="STLChart" style="height: 250px;"></canvas>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
 
 <div class="card">
     <div class="card-header">
@@ -126,7 +39,7 @@
                             
                         </div>
                         <div>
-                            <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a>
+                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>
@@ -141,9 +54,9 @@
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
                             <a href="/siteentry/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Request</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Approval</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">History</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Request</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Approval</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My History</a>
                             <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Monitor</a>
                         </div>
                         <div>
@@ -173,14 +86,18 @@
                                         <tr>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
-                                                </a></td>
+                                                </a>
+                                                <a href="#" class="btn-grad-info btn-sm">
+                                                    Room
+                                                </a>
+                                            </td>
                                             <td>001</td>
                                             <td>2025-03-03</td>
                                             <td>Active</td>
                                             <td>2025-03-03</td>
                                             <td>2025-03-07</td>
                                             <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
+                                            <td>COMPLETED</td>
                                             <td>APPROVAL LEVEL 1</td>
                                             <td>Daenerys Targaryen</td>
                                             <td>2025-02-21 10:26:09</td>

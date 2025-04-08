@@ -53,9 +53,9 @@
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
                             <a href="/travelrequest/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Request</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Approval</a>
-                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">History</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Request</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My Approval</a>
+                            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">My History</a>
                             <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Monitor</a>
                         </div>
                         <div>

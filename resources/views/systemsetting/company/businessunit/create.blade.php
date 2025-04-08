@@ -18,10 +18,10 @@
                             <div class="card mb-4" style="border-color: #26d496">
                                 <div class="card-body">
                                         <label for="code">Code</label>
-                                        <input placeholder="Username" class="form-control" name="code" type="text">
+                                        <input class="form-control" type="text">
                                     
                                         <label for="name">Name</label>
-                                        <input placeholder="Name" class="form-control" name="name" type="text">
+                                        <input class="form-control" type="text">
                                 </div>
                             </div>
                         </form>

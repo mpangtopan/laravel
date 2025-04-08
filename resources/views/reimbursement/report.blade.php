@@ -58,9 +58,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center mt-2">
-                        
+                        <div></div>
                         <div>
-                            <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a>
+                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>

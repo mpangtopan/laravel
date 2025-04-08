@@ -41,12 +41,12 @@ Route::get('/siteentry/chart', function () {
     return view('siteentrychart');
 });
 
-Route::get('/siteentry/transportation', function () {
-    return view('siteentry.transportation.index');
+Route::get('/transportation', function () {
+    return view('transportation.index');
 });
 
-Route::get('/siteentry/transportation/create', function () {
-    return view('siteentry.transportation.create');
+Route::get('/transportation/create', function () {
+    return view('transportation.create');
 });
 
 Route::get('/travelrequest', function () {
@@ -100,6 +100,33 @@ Route::get('/reimbursement/chart', function () {
     return view('reimbursementchart');
 });
 
+Route::get('/precheck/unit/master', function () {
+    return view('precheck.unit.master.index');
+});
+Route::get('/precheck/unit/master/group', function () {
+    return view('precheck.unit.master.group');
+});
+Route::get('/precheck/unit/master/detail', function () {
+    return view('precheck.unit.master.detail');
+});
+Route::get('/precheck/unit/transaction', function () {
+    return view('precheck.unit.transaction.index');
+});
+Route::get('/precheck/unit/transaction/detail', function () {
+    return view('precheck.unit.transaction.detail');
+});
+Route::get('/precheck/unit/transaction/create', function () {
+    return view('precheck.unit.transaction.create');
+});
+
+Route::get('/precheck/unit/schedule', function () {
+    return view('precheck.unit.schedule.index');
+});
+Route::get('/precheck/unit/schedule/create', function () {
+    return view('precheck.unit.schedule.create');
+});
+
+
 Route::get('/roomfacility', function () {
     return view('roomfacility.index');
 });
@@ -146,12 +173,67 @@ Route::get('/systemsetting/company/businessunit', function () {
 Route::get('/systemsetting/company/businessunit/create', function () {
     return view('systemsetting.company.businessunit.create');
 });
+Route::get('/systemsetting/company/costcenter', function () {
+    return view('systemsetting.company.costcenter.index');
+});
+Route::get('/systemsetting/company/costcenter/create', function () {
+    return view('systemsetting.company.costcenter.create');
+});
+Route::get('/systemsetting/company/department', function () {
+    return view('systemsetting.company.department.index');
+});
+Route::get('/systemsetting/company/department/create', function () {
+    return view('systemsetting.company.department.create');
+});
+Route::get('/systemsetting/company/location', function () {
+    return view('systemsetting.company.location.index');
+});
+Route::get('/systemsetting/company/location/create', function () {
+    return view('systemsetting.company.location.create');
+});
+Route::get('/systemsetting/company/project', function () {
+    return view('systemsetting.company.project.index');
+});
+Route::get('/systemsetting/company/project/create', function () {
+    return view('systemsetting.company.project.create');
+});
+Route::get('/systemsetting/company/shift', function () {
+    return view('systemsetting.company.shift.index');
+});
+Route::get('/systemsetting/company/shift/create', function () {
+    return view('systemsetting.company.shift.create');
+});
+Route::get('/systemsetting/company/timetable', function () {
+    return view('systemsetting.company.timetable.index');
+});
+Route::get('/systemsetting/company/timetable/create', function () {
+    return view('systemsetting.company.timetable.create');
+});
 
 Route::get('/systemsetting/employee', function () {
     return view('systemsetting.employee.index');
 });
 Route::get('/systemsetting/employee/create', function () {
     return view('systemsetting.employee.create');
+});
+
+Route::get('/systemsetting/room/room', function () {
+    return view('systemsetting.room.room.index');
+});
+Route::get('/systemsetting/room/room/create', function () {
+    return view('systemsetting.room.room.create');
+});
+Route::get('/systemsetting/room/roomarea', function () {
+    return view('systemsetting.room.roomarea.index');
+});
+Route::get('/systemsetting/room/roomarea/create', function () {
+    return view('systemsetting.room.roomarea.create');
+});
+Route::get('/systemsetting/room/roomfacility', function () {
+    return view('systemsetting.room.roomfacility.index');
+});
+Route::get('/systemsetting/room/roomfacility/create', function () {
+    return view('systemsetting.room.roomfacility.create');
 });
 
 Route::get('/compro', function () {

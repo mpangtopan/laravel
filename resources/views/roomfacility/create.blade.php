@@ -42,9 +42,9 @@
                 </div>    
             </section>
         </div>
-        <din class="card-footer">
-            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
-        </din>
+        <div class="card-footer">
+            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
+        </div>
     </div>
 
         

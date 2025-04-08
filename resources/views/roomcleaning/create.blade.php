@@ -33,15 +33,15 @@
                                     <textarea class="form-control" rows="3" placeholder="Enter note" name="note" cols="50"></textarea>
                                 </div>
                             </div>
-                            <div class="card-footer">
-                                <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
-                            </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
+        <div class="card-footer">
+            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
+        </div>
+        </form>
     </div>
 
         

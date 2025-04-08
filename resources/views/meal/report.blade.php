@@ -44,9 +44,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center mt-2">
-                        
+                        <div></div>
                         <div>
-                            <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a>
+                            {{-- <a href="" class="btn-grad-danger btn-sm mb-2 shadow-sm">Close</a> --}}
                             <a href="" class="btn-filter btn-sm mb-2 shadow-sm">Filter</a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-bordered table-hover">
+                                <table class="table-striped table-bordered table-hover" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 14px">
                                         <tr>
                                             <th>Transaction Date</th>

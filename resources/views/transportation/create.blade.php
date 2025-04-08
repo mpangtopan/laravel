@@ -7,7 +7,7 @@
 
     <div class="card m-4">
         <div class="card-header">
-            <a href="/siteentry/transportation" class="btn-grad-danger btn-sm m-2 shadow-sm">Back to list</a>
+            <a href="/transportation" class="btn-grad-danger btn-sm m-2 shadow-sm">Back to list</a>
         </div>
         <div class="card-body p-4 shadow-sm">
 
@@ -67,34 +67,32 @@
                                         <div class="card-header" style="background-color: #26d496">
                                             <span style="font-weight: bold;">Passenger Details</span>
                                             <!-- Tombol Search Passenger -->
-                                            <button type="button" class="btn btn-info btn-xs" id="searchPassenger" data-toggle="modal" data-target="#searchPassengerModal">
+                                            <button type="button" class="btn btn-info btn-xs pull-right" id="searchPassenger" data-toggle="modal" data-target="#searchPassengerModal">
                                                 <i class="fa fa-search"></i> Search Passenger
                                             </button>
                                         </div>
                                         
-                                        <div class="card">
-                                            
-                                                    <div class="card-body">
-                                                        <div class="table-responsive">
-                                                            <table class="table-bordered table-striped table-hover" id="passengerDetailsTable">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Type</th>
-                                                                        <th>Name</th>
-                                                                        <th>Job Position</th>
-                                                                        <th>Company</th>
-                                                                        <th>From</th>
-                                                                        <th>To</th>
-                                                                        <th>Action</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
+                                        <div class="card">                                            
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table-bordered table-striped table-hover" id="passengerDetailsTable">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Type</th>
+                                                                <th>Name</th>
+                                                                <th>Job Position</th>
+                                                                <th>Company</th>
+                                                                <th>From</th>
+                                                                <th>To</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
                                                                     <!-- Data penumpang akan dimasukkan di sini oleh JavaScript -->
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 
@@ -102,7 +100,7 @@
                     </div>
                 </div>
         </section>
-        <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
+        <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
         </div>
     </div>
 

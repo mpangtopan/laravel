@@ -58,14 +58,14 @@
                                         <input class="form-control" rows="3" placeholder="Remarks" name="remarks" type="text">
                                     </div>
                                 </div>
-                                <div class="box-footer">
-                                    <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm">Submit</a>
-                                </div>
-                                </form>
                             </div>
+                        </form>
                     </div>
                 </div>
-        </section>
+            </section>
+        </div>
+        <div class="card-footer">
+            <a href="" class="btn-grad-primary btn-sm mb-2 shadow-sm pull-right">Submit</a>
         </div>
     </div>
 

@@ -18,6 +18,9 @@
                             <div class="col-md-6">
                                 <label for="no" >Room Cleaning No.</label>
                                 <input id="no" class="form-control" name="no" type="text" value="">
+
+                                <label for="area" >Area</label>
+                                <select class="form-control" name="status[]"><option value="Open">Area 1</option><option value="Cancelled">Area 2</option></select>
                                     
                                 <label for="room_id" >Room</label>
                                 <select id="room_id" class="form-control" name="room_id[]"><option value="2">[R001] - Deluxe</option><option value="3">[R9] - Standard</option></select>
@@ -63,30 +66,60 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
+                                            <th><input type="checkbox" id="select-all"></th>
+                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
+                                            data-header-align="center" data-sortable="false">Action</th>
                                             <th data-column-id="id" data-type="numeric" data-visible="false" data-identifier="true">ID</th>
                                             <th data-column-id="no">Room Cleaning No.</th>
+                                            <th data-column-id="area">Area</th>
                                             <th data-column-id="room_name">Room</th>
                                             <th data-column-id="status">Status</th>
                                             <th data-column-id="note">Note</th>
-                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center"
-                                                data-header-align="center" data-sortable="false">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
                                             <td>
                                                 <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
                                             </td>
+                                            <td></td>
+                                            <td>000000001</td>
+                                            <td>Area1</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>On Process</td>
+                                            <td>OK</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td></td>
+                                            <td>000000002</td>
+                                            <td>Area1</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>Done</td>
+                                            <td>OK</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" class="row-checkbox"></td>
+                                            <td>
+                                                <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
+                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
+                                            </td>
+                                            <td></td>
+                                            <td>000000001</td>
+                                            <td>Area1</td>
+                                            <td>[R001] - Deluxe</td>
+                                            <td>Done</td>
+                                            <td>OK</td>
                                         </tr>
                                     </tbody>
                                 </table>
