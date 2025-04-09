@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="card-header"><h3 class="mt-0 p-3">Business Unit</h3></div>
+<div class="card-header"><h3 class="mt-0 p-3">Employee</h3></div>
 <div class="card">
     <div class="card-header">
         <h2 class="mt-0">
@@ -79,27 +79,25 @@
                     <div class="card">
                         <div class="card-body p-2 shadow-sm">
                             <div class="table-responsive">
-                                <table class="table-striped table-hover table-bordered">
+                                <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
-                                            <th data-column-id="id" data-order="asc" data-type="numeric" data-identifier="true" data-visible="false">ID</th>
+                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center" data-header-align="center" data-sortable="false">Action</th>
                                             <th data-formatter="avatar" data-sortable="false" data-width="10%">Avatar</th>
                                             <th data-formatter="personal_info" data-sortable="false">Personal Info</th>
                                             <th data-formatter="job_info" data-sortable="false">Job Info</th>
-                                            <th data-column-id="commands" data-width="15%" data-formatter="commands" data-align="center" data-header-align="center" data-sortable="false">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
                                             <td>
                                                 <a href="" class="btn-grad-warning shadow-sm btn-sm">View</a>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 {{-- <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a>  --}}
                                             </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

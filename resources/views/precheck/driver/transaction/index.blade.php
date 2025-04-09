@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3">Master Question - Driver</h3></div>
+<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3">Data Transaction - Driver</h3></div>
 <div class="card">
     <div class="card-header">
         <h2 class="mt-0">
@@ -16,18 +16,31 @@
                     <div class="card card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <label class="control-label">Checklist Code</label>
+                                <label class="col-sm-4">Transaction Date</label>
+                                <input class="form-control" type="date" value=""> 
+
+                                <label class="col-sm-4">Vehicle Code</label>
+                                <input class="form-control" type="text" value="">
+                                    
+                                <label class="col-sm-4">Vehicle Type</label>
                                 <input class="form-control" type="text" value="">
 
-                                <label class="control-label">Description</label>
+                                <label class="col-sm-4">Vehicle Name</label>
                                 <input class="form-control" type="text" value="">
+
                             </div>
                             <div class="col-md-6">
-                                <label class="control-label">Type</label>
-                                <input class="form-control" type="text" value="">
+                                <label class="col-md-4">Driver</label>
+                                <select class="form-control"><option value="">-- Select --</option><option value="1" selected="selected">[E0999] Budi Budiman</option><option value="2">[E0123] Iwan Darmawan</option></select>
+                                
+                                <label class="col-sm-4">Status</label>
+                                <input class="form-control" type="text" value="">  
 
-                                <label class="control-label">Expire Date</label>
-                                <input class="form-control" type="date" value="">        
+                                <label class="col-md-4">Precheck Type</label>
+                                <select class="form-control"><option>Weekly</option><option>Monthly</option><option>Yearly</option></select>
+                                
+                                <label class="col-sm-4">Description</label>
+                                <input class="form-control" type="text" value="">
                             </div>
                         </div>
                     </div>
@@ -47,7 +60,7 @@
                 <div class="table-responsive col-lg p-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <a href="/precheck/driver/master/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
+                            <a href="/precheck/driver/transaction/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
                         </div>
                         <div>
                             <a href="" class="btn-grad-success btn-sm mb-2 shadow-sm">Export</a>
@@ -60,34 +73,58 @@
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
                                             <th data-width="15%" data-formatter="commands" data-align="center" data-header-align="center" data-sortable="false">Action</th>
-                                            <th>Checklist Code</th>
+                                            <th>Transaction Date</th>
+                                            <th>Vehicle Code</th>
+                                            <th>Vehicle Type</th>
+                                            <th>Vehicle Name</th>
+                                            <th>Driver</th>
+                                            <th>Status</th>
+                                            <th>Precheck Type</th>
                                             <th>Description</th>
-                                            <th>Type</th>
-                                            <th>Expire Date</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
                                         <tr>
                                             <td>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
-                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
-                                                <a href="/precheck/driver/master/group" class="btn-grad-info shadow-sm btn-sm">Detail</a> 
+                                                <a href="/precheck/driver/transaction/detail" class="btn-grad-info shadow-sm btn-sm">Detail</a> 
                                             </td>
-                                            <td>CH001</td>
+                                            <td>2025-04-07</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td></td>
                                             <td>Weekly</td>
-                                            <td>2025-04-07</td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
-                                                <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
-                                                <a href="/precheck/driver/master/group" class="btn-grad-info shadow-sm btn-sm">Detail</a>
+                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a> 
+                                                <a href="/precheck/driver/transaction/detail" class="btn-grad-info shadow-sm btn-sm">Detail</a> 
                                             </td>
-                                            <td>CH002</td>
+                                            <td>2025-05-10</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Weekly</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a> 
+                                                <a href="/precheck/driver/transaction/detail" class="btn-grad-info shadow-sm btn-sm">Detail</a> 
+                                            </td>
+                                            <td>2025-04-07</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td></td>
                                             <td>Monthly</td>
-                                            <td>2025-04-07</td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

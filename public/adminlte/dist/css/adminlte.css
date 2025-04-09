@@ -30,6 +30,7 @@ body {
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
+  background-image: linear-gradient(to right, #4dffb856, #b3d1ff56);
 }
 .wrapper:before,
 .wrapper:after {
@@ -88,7 +89,7 @@ body {
 }
 .content-wrapper {
   min-height: calc(100vh - 101px);
-  background-color: #ecf0f5;
+  /* background-color: #ecf0f5; */
   z-index: 800;
 }
 @media (max-width: 767px) {
@@ -637,7 +638,7 @@ a:focus {
   .sidebar-mini.sidebar-collapse .sidebar-menu > li > a > span > .pull-right,
   .sidebar-mini.sidebar-collapse .sidebar-menu li.header {
     display: none !important;
-    -webkit-transform: translateZ(0);
+    /* -webkit-transform: translateZ(0); */
   }
   .sidebar-mini.sidebar-collapse .main-header .logo {
     width: 50px;

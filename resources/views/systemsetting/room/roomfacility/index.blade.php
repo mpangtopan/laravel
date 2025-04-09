@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3">Master Question - Driver</h3></div>
+<div class="card-header" style="font-style:italic"><h3 class="mt-0 p-3">Room Facility</h3></div>
 <div class="card">
     <div class="card-header">
         <h2 class="mt-0">
@@ -16,18 +16,20 @@
                     <div class="card card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <label class="control-label">Checklist Code</label>
-                                <input class="form-control" type="text" value="">
-
-                                <label class="control-label">Description</label>
+                                <label class="col-sm-4 control-label">Code</label>
                                 <input class="form-control" type="text" value="">
                             </div>
                             <div class="col-md-6">
-                                <label class="control-label">Type</label>
-                                <input class="form-control" type="text" value="">
-
-                                <label class="control-label">Expire Date</label>
-                                <input class="form-control" type="date" value="">        
+                                <label class="col-sm-4 control-label">Name</label>
+                                <input class="form-control" type="text" value="">         
+                            </div>
+                            <div class="col-md-6">
+                                <label class="col-sm-4 control-label">Category</label>
+                                <input class="form-control" type="text" value="">         
+                            </div>
+                            <div class="col-md-6">
+                                <label class="col-sm-4 control-label">Status</label>
+                                <input class="form-control" type="text" value="">         
                             </div>
                         </div>
                     </div>
@@ -47,7 +49,7 @@
                 <div class="table-responsive col-lg p-2">
                     <div class="d-flex justify-content-between align-items-center mb-2">
                         <div>
-                            <a href="/precheck/driver/master/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
+                            <a href="/systemsetting/room/roomfacility/create" class="btn-grad-primary btn-sm mb-2 shadow-sm"><i class="fa-solid fa-plus"></i> Add New</a>
                         </div>
                         <div>
                             <a href="" class="btn-grad-success btn-sm mb-2 shadow-sm">Export</a>
@@ -59,11 +61,11 @@
                                 <table class="table-striped table-hover table-bordered" style="width: 100%">
                                     <thead class="bg-bl" style="font-size: 16px">
                                         <tr>
-                                            <th data-width="15%" data-formatter="commands" data-align="center" data-header-align="center" data-sortable="false">Action</th>
-                                            <th>Checklist Code</th>
-                                            <th>Description</th>
-                                            <th>Type</th>
-                                            <th>Expire Date</th>
+                                            <th>Action</th>
+                                            <th>Code</th>
+                                            <th>Name</th>
+                                            <th>Category</th>
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
@@ -71,23 +73,21 @@
                                             <td>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
-                                                <a href="/precheck/driver/master/group" class="btn-grad-info shadow-sm btn-sm">Detail</a> 
                                             </td>
-                                            <td>CH001</td>
                                             <td></td>
-                                            <td>Weekly</td>
-                                            <td>2025-04-07</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <a href="" class="btn-grad-success shadow-sm btn-sm">Edit</a>
                                                 <a href="" class="btn-grad-danger shadow-sm btn-sm">Delete</a> 
-                                                <a href="/precheck/driver/master/group" class="btn-grad-info shadow-sm btn-sm">Detail</a>
                                             </td>
-                                            <td>CH002</td>
                                             <td></td>
-                                            <td>Monthly</td>
-                                            <td>2025-04-07</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                         </tr>
                                     </tbody>
                                 </table>

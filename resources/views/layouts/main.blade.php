@@ -36,7 +36,7 @@
 
     @include('layouts.inc.ext-js')
 
-    @include('layouts.inc.footer')
   </div>
+  @include('layouts.inc.footer')
 </body>
 </html>

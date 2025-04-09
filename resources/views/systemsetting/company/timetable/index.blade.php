@@ -15,13 +15,13 @@
                 <div id="searchForm" name="searchForm" method="POST">
                     <div class="card card-body">
                         <div class="row">
-                            <div class="col-md-12">
-                                    <label class="col-sm-4 control-label" style="text-align: left;" for="code">Code</label>
-                                    <input class="form-control" type="text" value="">
-                                    
-                                    <label class="col-sm-4 control-label" style="text-align: left;" for="name">Name</label>
-                                    <input class="form-control" type="text" value="">
-                                         
+                            <div class="col-md-6">
+                                <label class="col-sm-4 control-label" style="text-align: left;" for="code">Code</label>
+                                <input class="form-control" type="text" value="">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="col-sm-4 control-label" style="text-align: left;" for="name">Name</label>
+                                <input class="form-control" type="text" value="">
                             </div>
                         </div>
                     </div>

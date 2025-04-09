@@ -126,6 +126,43 @@ Route::get('/precheck/unit/schedule/create', function () {
     return view('precheck.unit.schedule.create');
 });
 
+Route::get('/precheck/driver/master', function () {
+    return view('precheck.driver.master.index');
+});
+Route::get('/precheck/driver/master/group', function () {
+    return view('precheck.driver.master.group');
+});
+Route::get('/precheck/driver/master/detail', function () {
+    return view('precheck.driver.master.detail');
+});
+Route::get('/precheck/driver/transaction', function () {
+    return view('precheck.driver.transaction.index');
+});
+Route::get('/precheck/driver/transaction/detail', function () {
+    return view('precheck.driver.transaction.detail');
+});
+Route::get('/precheck/driver/transaction/create', function () {
+    return view('precheck.driver.transaction.create');
+});
+
+Route::get('/precheck/passenger/master', function () {
+    return view('precheck.passenger.master.index');
+});
+Route::get('/precheck/passenger/master/group', function () {
+    return view('precheck.passenger.master.group');
+});
+Route::get('/precheck/passenger/master/detail', function () {
+    return view('precheck.passenger.master.detail');
+});
+Route::get('/precheck/passenger/transaction', function () {
+    return view('precheck.passenger.transaction.index');
+});
+Route::get('/precheck/passenger/transaction/detail', function () {
+    return view('precheck.passenger.transaction.detail');
+});
+Route::get('/precheck/passenger/transaction/create', function () {
+    return view('precheck.passenger.transaction.create');
+});
 
 Route::get('/roomfacility', function () {
     return view('roomfacility.index');
@@ -210,11 +247,41 @@ Route::get('/systemsetting/company/timetable/create', function () {
     return view('systemsetting.company.timetable.create');
 });
 
-Route::get('/systemsetting/employee', function () {
-    return view('systemsetting.employee.index');
+Route::get('/systemsetting/employee/employee', function () {
+    return view('systemsetting.employee.employee.index');
 });
-Route::get('/systemsetting/employee/create', function () {
-    return view('systemsetting.employee.create');
+Route::get('/systemsetting/employee/employee/create', function () {
+    return view('systemsetting.employee.employee.create');
+});
+Route::get('/systemsetting/employee/employeestatus', function () {
+    return view('systemsetting.employee.employeestatus.index');
+});
+Route::get('/systemsetting/employee/employeestatus/create', function () {
+    return view('systemsetting.employee.employeestatus.create');
+});
+Route::get('/systemsetting/employee/induction', function () {
+    return view('systemsetting.employee.induction.index');
+});
+Route::get('/systemsetting/employee/induction/create', function () {
+    return view('systemsetting.employee.induction.create');
+});
+Route::get('/systemsetting/employee/jobposition', function () {
+    return view('systemsetting.employee.jobposition.index');
+});
+Route::get('/systemsetting/employee/jobposition/create', function () {
+    return view('systemsetting.employee.jobposition.create');
+});
+Route::get('/systemsetting/employee/plafond', function () {
+    return view('systemsetting.employee.plafond.index');
+});
+Route::get('/systemsetting/employee/plafond/create', function () {
+    return view('systemsetting.employee.plafond.create');
+});
+Route::get('/systemsetting/employee/recruitment', function () {
+    return view('systemsetting.employee.recruitment.index');
+});
+Route::get('/systemsetting/employee/recruitment/create', function () {
+    return view('systemsetting.employee.recruitment.create');
 });
 
 Route::get('/systemsetting/room/room', function () {
@@ -234,6 +301,13 @@ Route::get('/systemsetting/room/roomfacility', function () {
 });
 Route::get('/systemsetting/room/roomfacility/create', function () {
     return view('systemsetting.room.roomfacility.create');
+});
+
+Route::get('/systemsetting/transportation/driver', function () {
+    return view('systemsetting.transportation.driver.index');
+});
+Route::get('/systemsetting/transportation/driver/create', function () {
+    return view('systemsetting.transportation.driver.create');
 });
 
 Route::get('/compro', function () {

@@ -197,6 +197,7 @@
               <li><a href="/systemsetting/employee/induction"><i class="fa fa-2xs fa-circle"></i> Induction</a></li>
               <li><a href="/systemsetting/employee/jobposition"><i class="fa fa-2xs fa-circle"></i> Job Position</a></li>
               <li><a href="/systemsetting/employee/plafond"><i class="fa fa-2xs fa-circle"></i> Plafond</a></li>
+              <li><a href="/systemsetting/employee/recruitment"><i class="fa fa-2xs fa-circle"></i> Recruitment</a></li>
             </ul>
           </li>
           <li class="treeview">

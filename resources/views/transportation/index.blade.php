@@ -80,16 +80,13 @@
                                         <tr>
                                             <th><input type="checkbox" id="select-all"></th>
                                             <th>Action</th>
-                                            <th data-order="desc">Request No</th>
-                                            <th>Request Date</th>
-                                            <th>Purpose</th>
-                                            <th>Arrival Date</th>
-                                            <th>Departure Date</th>
-                                            <th>Requestor Name</th>
+                                            <th data-order="desc">Transportation No</th>
+                                            <th>Date</th>
+                                            <th>Vehicle</th>
+                                            <th>Primary Driver</th>
+                                            <th>Secondary Driver</th>
+                                            <th>User</th>
                                             <th>Status</th>
-                                            <th>Next Action</th>
-                                            <th>Next User</th>
-                                            <th>Last Update</th>
                                         </tr>
                                     </thead>
                                     <tbody class="text-sm">
@@ -98,112 +95,39 @@
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
-                                            <td>001</td>
+                                            <td>00000001</td>
                                             <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
+                                            <td>Sabrina</td>
+                                            <td>Jupri</td>
+                                            <td>Dadang</td>
                                             <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
+                                            <td>Open</td>
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
-                                            <td>002</td>
+                                            <td>00000001</td>
                                             <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
+                                            <td>Sabrina</td>
+                                            <td>Jupri</td>
+                                            <td>Dadang</td>
                                             <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
+                                            <td>Open</td>
                                         </tr>
                                         <tr>
                                             <td><input type="checkbox" class="row-checkbox"></td>
                                             <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
                                                 View
                                                 </a></td>
-                                            <td>003</td>
+                                            <td>00000001</td>
                                             <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
+                                            <td>Sabrina</td>
+                                            <td>Jupri</td>
+                                            <td>Dadang</td>
                                             <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" class="row-checkbox"></td>
-                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
-                                                View
-                                                </a></td>
-                                            <td>004</td>
-                                            <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
-                                            <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" class="row-checkbox"></td>
-                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
-                                                View
-                                                </a></td>
-                                            <td>005</td>
-                                            <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
-                                            <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" class="row-checkbox"></td>
-                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
-                                                View
-                                                </a></td>
-                                            <td>006</td>
-                                            <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
-                                            <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
-                                        </tr>
-                                        <tr>
-                                            <td><input type="checkbox" class="row-checkbox"></td>
-                                            <td><a href="" class="btn-grad-warning shadow-sm btn-sm">
-                                                View
-                                                </a></td>
-                                            <td>007</td>
-                                            <td>2025-03-03</td>
-                                            <td>Active</td>
-                                            <td>2025-03-03</td>
-                                            <td>2025-03-07</td>
-                                            <td>Jon Snow</td>
-                                            <td>WAITING_APPROVAL</td>
-                                            <td>APPROVAL LEVEL 1</td>
-                                            <td>Daenerys Targaryen</td>
-                                            <td>2025-02-21 10:26:09</td>
+                                            <td>Done</td>
                                         </tr>
                                     </tbody>
                                 </table>

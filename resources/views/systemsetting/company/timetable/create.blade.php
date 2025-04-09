@@ -22,6 +22,24 @@
                                     
                                         <label>Name</label>
                                         <input class="form-control" type="text">
+
+                                        <label>Time in</label>
+                                        <input class="form-control" type="time">
+                                        <label>Begin Time in</label>
+                                        <input class="form-control" type="time">
+                                        <label>End Time in</label>
+                                        <input class="form-control" type="time">
+                                        <label>Time Out</label>
+                                        <input class="form-control" type="time">
+                                        <label>Begin Time Out</label>
+                                        <input class="form-control" type="time">
+                                        <label>End Time Out</label>
+                                        <input class="form-control" type="time">
+
+                                        <label>Is Short Day?</label>
+                                        <select class="form-control"><option>No</option><option>Yes</option></select>
+                                        <label>Is Work Day?</label>
+                                        <select class="form-control"><option>No</option><option>Yes</option></select>
                                 </div>
                             </div>
                         </form>
