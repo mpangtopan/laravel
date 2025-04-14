@@ -39,6 +39,8 @@
 <script src="/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Select2 -->
+{{-- <script src="/adminlte/plugins/select2/js/select2.full.min.js"></script> --}}
 <script src="/adminlte/bower_components/select2/dist/js/select2.full.min.js"></script>
 <script src="/adminlte/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 
@@ -841,9 +843,7 @@
   }
 </script>
 
-<!-- Select2 -->
-{{-- <script src="/adminlte/bower_components/select2/dist/js/select2.full.min.js"></script> --}}
-<script src="/adminlte/plugind/select2/js/select2.full.min.js"></script>
+
 <!-- InputMask -->
 <script src="/adminlte/plugins/input-mask/jquery.inputmask.js"></script>
 <script src="/adminlte/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>

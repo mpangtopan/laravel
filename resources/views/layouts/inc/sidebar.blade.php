@@ -19,7 +19,7 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li class=""><a href="/travelrequest"><i class="fa fa-2xs fa-circle-dot"></i> Submit Travel Request</a></li>
+          <li><a href="/travelrequest"><i class="fa fa-2xs fa-circle-dot"></i> Submit Travel Request</a></li>
           <li><a href="/roombooking"><i class="fa fa-2xs fa-circle-dot"></i> Room Booking</a></li>
           {{-- <li><a href="/travelrequest/monitoring"><i class="fa fa-2xs fa-circle-dot"></i> Travel Monitoring</a></li> --}}
           <li><a href="/travelrequest/report"><i class="fa fa-2xs fa-circle-dot"></i> Report</a></li>
@@ -224,7 +224,7 @@
             </a>
             <ul class="treeview-menu nav nav-treeview">
               <li><a href="/systemsetting/transportation/driver"><i class="fa fa-2xs fa-circle"></i> Driver</a></li>
-              <li><a href="/systemsetting/transportation/transportationlocation"><i class="fa fa-2xs fa-circle"></i> Transportation Location</a></li>
+              <li><a href="/systemsetting/transportation/location"><i class="fa fa-2xs fa-circle"></i> Transportation Location</a></li>
               <li><a href="/systemsetting/transportation/vehicle"><i class="fa fa-2xs fa-circle"></i> Vehicle</a></li>
             </ul>
           </li>
@@ -253,7 +253,7 @@
         </a>
         <ul class="treeview-menu nav nav-treeview">
           <li><a href="/systemadministrator/userrole"><i class="fa fa-2xs fa-circle-dot"></i> User Role</a></li>
-          <li><a href="/systemadministrator/useradministation"><i class="fa fa-2xs fa-circle-dot"></i> User Administration</a></li>
+          <li><a href="/systemadministrator/useradministration"><i class="fa fa-2xs fa-circle-dot"></i> User Administration</a></li>
           <li><a href="/systemadministrator/broadcast"><i class="fa fa-2xs fa-circle-dot"></i> Broadcast Notification</a></li>
         </ul>
       </li>

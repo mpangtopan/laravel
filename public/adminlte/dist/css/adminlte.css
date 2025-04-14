@@ -593,7 +593,7 @@ a:focus {
   transform: rotate(-90deg);
 }
 .sidebar-menu .active > .treeview-menu {
-  display: block;
+  display: block !important;
 }
 /*
  * Component: Sidebar Mini

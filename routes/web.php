@@ -103,8 +103,17 @@ Route::get('/reimbursement/chart', function () {
 Route::get('/precheck/unit/master', function () {
     return view('precheck.unit.master.index');
 });
+Route::get('/precheck/unit/master/create', function () {
+    return view('precheck.unit.master.create');
+});
 Route::get('/precheck/unit/master/group', function () {
     return view('precheck.unit.master.group');
+});
+Route::get('/precheck/unit/master/group/create', function () {
+    return view('precheck.unit.master.groupcreate');
+});
+Route::get('/precheck/unit/master/detail/create', function () {
+    return view('precheck.unit.master.detailcreate');
 });
 Route::get('/precheck/unit/master/detail', function () {
     return view('precheck.unit.master.detail');
@@ -118,7 +127,9 @@ Route::get('/precheck/unit/transaction/detail', function () {
 Route::get('/precheck/unit/transaction/create', function () {
     return view('precheck.unit.transaction.create');
 });
-
+Route::get('/precheck/unit/transaction/input', function () {
+    return view('precheck.unit.transaction.input');
+});
 Route::get('/precheck/unit/schedule', function () {
     return view('precheck.unit.schedule.index');
 });
@@ -129,11 +140,20 @@ Route::get('/precheck/unit/schedule/create', function () {
 Route::get('/precheck/driver/master', function () {
     return view('precheck.driver.master.index');
 });
+Route::get('/precheck/driver/master/create', function () {
+    return view('precheck.driver.master.create');
+});
 Route::get('/precheck/driver/master/group', function () {
     return view('precheck.driver.master.group');
 });
+Route::get('/precheck/driver/master/group/create', function () {
+    return view('precheck.driver.master.groupcreate');
+});
 Route::get('/precheck/driver/master/detail', function () {
     return view('precheck.driver.master.detail');
+});
+Route::get('/precheck/driver/master/detail/create', function () {
+    return view('precheck.driver.master.detailcreate');
 });
 Route::get('/precheck/driver/transaction', function () {
     return view('precheck.driver.transaction.index');
@@ -144,15 +164,27 @@ Route::get('/precheck/driver/transaction/detail', function () {
 Route::get('/precheck/driver/transaction/create', function () {
     return view('precheck.driver.transaction.create');
 });
+Route::get('/precheck/driver/transaction/input', function () {
+    return view('precheck.driver.transaction.input');
+});
 
 Route::get('/precheck/passenger/master', function () {
     return view('precheck.passenger.master.index');
 });
+Route::get('/precheck/passenger/master/create', function () {
+    return view('precheck.passenger.master.create');
+});
 Route::get('/precheck/passenger/master/group', function () {
     return view('precheck.passenger.master.group');
 });
+Route::get('/precheck/passenger/master/group/create', function () {
+    return view('precheck.passenger.master.groupcreate');
+});
 Route::get('/precheck/passenger/master/detail', function () {
     return view('precheck.passenger.master.detail');
+});
+Route::get('/precheck/passenger/master/detail/create', function () {
+    return view('precheck.passenger.master.detailcreate');
 });
 Route::get('/precheck/passenger/transaction', function () {
     return view('precheck.passenger.transaction.index');
@@ -162,6 +194,9 @@ Route::get('/precheck/passenger/transaction/detail', function () {
 });
 Route::get('/precheck/passenger/transaction/create', function () {
     return view('precheck.passenger.transaction.create');
+});
+Route::get('/precheck/passenger/transaction/input', function () {
+    return view('precheck.passenger.transaction.input');
 });
 
 Route::get('/roomfacility', function () {
@@ -308,6 +343,52 @@ Route::get('/systemsetting/transportation/driver', function () {
 });
 Route::get('/systemsetting/transportation/driver/create', function () {
     return view('systemsetting.transportation.driver.create');
+});
+
+Route::get('/systemsetting/transportation/location', function () {
+    return view('systemsetting.transportation.transportationlocation.index');
+});
+Route::get('/systemsetting/transportation/location/create', function () {
+    return view('systemsetting.transportation.transportationlocation.create');
+});
+
+Route::get('/systemsetting/transportation/vehicle', function () {
+    return view('systemsetting.transportation.vehicle.index');
+});
+Route::get('/systemsetting/transportation/vehicle/create', function () {
+    return view('systemsetting.transportation.vehicle.create');
+});
+
+Route::get('/systemsetting/workflow/approvalflow', function () {
+    return view('systemsetting.workflow.approvalflow.index');
+});
+Route::get('/systemsetting/workflow/approvalflow/create', function () {
+    return view('systemsetting.workflow.approvalflow.create');
+});
+Route::get('/systemsetting/workflow/approvalmaster', function () {
+    return view('systemsetting.workflow.approvalmaster.index');
+});
+Route::get('/systemsetting/workflow/approvalmaster/create', function () {
+    return view('systemsetting.workflow.approvalmaster.create');
+});
+
+Route::get('/systemadministrator/userrole', function () {
+    return view('systemadministrator.userrole.index');
+});
+Route::get('/systemadministrator/userrole/create', function () {
+    return view('systemadministrator.userrole.create');
+});
+Route::get('/systemadministrator/useradministration', function () {
+    return view('systemadministrator.useradministration.index');
+});
+Route::get('/systemadministrator/useradministration/create', function () {
+    return view('systemadministrator.useradministration.create');
+});
+Route::get('/systemadministrator/broadcast', function () {
+    return view('systemadministrator.broadcastnotification.index');
+});
+Route::get('/systemadministrator/broadcast/create', function () {
+    return view('systemadministrator.broadcastnotification.create');
 });
 
 Route::get('/compro', function () {

@@ -31,8 +31,8 @@
 <link rel="stylesheet" href="/adminlte/dist/css/skins/skin-custom.css">
 
 <!-- Select2 -->
-{{-- <link rel="stylesheet" href="/adminlte/bower_components/select2/dist/css/select2.min.css"> --}}
-<link rel="stylesheet" href="/adminlte/plugins/select2/css/select2.min.css">
+<link rel="stylesheet" href="/adminlte/bower_components/select2/dist/css/select2.min.css">
+{{-- <link rel="stylesheet" href="/adminlte/plugins/select2/css/select2.min.css"> --}}
 <!-- daterange picker -->
 <link rel="stylesheet" href="/adminlte/bower_components/bootstrap-daterangepicker/daterangepicker.css">
 <!-- bootstrap datepicker -->

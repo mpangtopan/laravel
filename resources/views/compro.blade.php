@@ -203,10 +203,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#about">WHY TEFMS</a></li>
+        <li><a href="#services">OUR SOLUTION</a></li>
         {{-- <li><a href="#portfolio">PORTFOLIO</a></li> --}}
-        <li><a href="#pricing">PRICING</a></li>
+        {{-- <li><a href="#pricing">PRICING</a></li> --}}
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -214,8 +214,8 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Terra Indonusa Jaya</h1> 
-  <p>We specialize in blablabla</p> 
+  <h1>TEFMS</h1> 
+  <p>Travel Employee And Facility Management System</p> 
   <div>
     {{-- <img src="/adminlte/dist/img/photo1.png" class="card-img-top"> --}}
 </div>
@@ -233,9 +233,16 @@
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About US</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>Why TEFMS</h2><br>
+      <h4>Travel Employee and Facilitys Management System Solution</h4><br>
+      <p>Travel Employee and Facility Management System ( TEFMS ) is solution from Terra Indonusa Jaya which
+        have customized travel management software that meets unique organizational needs, ensuring
+        seamless travel planning, booking and expenses management for employee across varoius sectors. Our
+        integration services connect travel management system with existing HR and financial platform,
+        enhancing data synchronization and communication while streamlining travel-related processes for users.
+        Also, provide advanced reporting and analytics features that deliver real-time insights into travel
+        expenses and compliance, empowering organizations to make informed decision and optimize their
+        travel programs.</p>
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
     <div class="col-sm-4">
@@ -363,7 +370,7 @@
 </div> --}}
 
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+{{-- <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>Pricing</h2>
     <h4>Choose a payment plan that works for you</h4>
@@ -427,7 +434,7 @@
       </div>      
     </div>    
   </div>
-</div>
+</div> --}}
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
@@ -446,6 +453,14 @@
         </div>
         <div class="col-sm-6 form-group">
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="company" name="company" placeholder="Company" type="text" required>
         </div>
       </div>
       <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>

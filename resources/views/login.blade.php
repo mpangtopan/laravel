@@ -15,8 +15,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="px-4 w-100 mt-3 mb-5" style="color: #ffffff;">
-                            <h1 class="text-center">Welcome to TERRAFM</h1>
-                            <p class="text-center">Travel & Facility Management</p>
+                            <h1 class="text-center">Welcome to TEFMS</h1>
+                            <p class="text-center">Travel Employee And Facility Management System</p>
                         </div>
                     </div>
                     <div class="col-lg-5">
