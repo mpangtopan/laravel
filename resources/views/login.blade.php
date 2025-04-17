@@ -9,7 +9,7 @@
 </head>
 <body style="background: url(/adminlte/dist/img/tornado2.svg) no-repeat center bottom fixed; background-size: cover;">
     <div class="card-header mt-4"  style="border-bottom: none">
-        <h4 class="mt-4 text-bold" style="color: #57e7ad">TERRA INDONUSA JAYA</h4>
+        <h4 class="mt-4 text-bold" style="color: #57e7ad">TERRA CIPTA TEKNOLOGI NUSANTARA</h4>
     </div>
 <div class="container" style="margin-top: 100px;">   
                 <div class="row align-items-center">

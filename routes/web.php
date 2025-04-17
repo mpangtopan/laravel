@@ -285,6 +285,9 @@ Route::get('/systemsetting/company/timetable/create', function () {
 Route::get('/systemsetting/employee/employee', function () {
     return view('systemsetting.employee.employee.index');
 });
+Route::get('/systemsetting/employee/employee/view', function () {
+    return view('systemsetting.employee.employee.view');
+});
 Route::get('/systemsetting/employee/employee/create', function () {
     return view('systemsetting.employee.employee.create');
 });
@@ -393,4 +396,10 @@ Route::get('/systemadministrator/broadcast/create', function () {
 
 Route::get('/compro', function () {
     return view('compro');
+});
+
+
+
+Route::get('/calendar', function () {
+    return view('roomcalendar');
 });

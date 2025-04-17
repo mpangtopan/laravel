@@ -67,7 +67,7 @@
                                             </td>
                                             <td>0000003</td>
                                             <td>Cash Advance</td>
-                                            <td></td>
+                                            <td><span class="label label-success">active</span></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -88,7 +88,7 @@
         </div>        
       </div>
       
-      <nav class="p-2" aria-label="Page navigation">
+    <nav class="p-2" aria-label="Page navigation">
         <ul class="pagination-animated">
           <li><a href="#" aria-label="Previous">&laquo;</a></li>
           <li><a href="#">&lt;</a></li>
@@ -96,7 +96,7 @@
           <li><a href="#">&gt;</a></li>
           <li><a href="#" aria-label="Next">&raquo;</a></li>
         </ul>
-      </nav>   
+    </nav>   
 </div>
 
 @endsection

@@ -27,31 +27,19 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-5">Vehicle Code</label>
+                                                <label class="col-md-5">Code</label>
                                                 <div class="col-md-7">
                                                     <input type="text" class="form-control" value="">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-5">Vehicle Type</label>
-                                                <div class="col-md-7">
-                                                    <input type="text" class="form-control" value="">
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label class="col-md-5">Vehicle Name</label>
+                                                <label class="col-md-5">Name</label>
                                                 <div class="col-md-7">
                                                     <input type="text" class="form-control" value="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7">
-                                            <div class="form-group">
-                                                <label class="col-md-5">Driver</label>
-                                                <div class="col-md-7">
-                                                    <select class="form-control"><option value="">-- Select --</option><option value="1" selected="selected">[E0999] Budi Budiman</option><option value="2">[E0123] Iwan Darmawan</option></select>
-                                                </div>
-                                            </div>
                                             <div class="form-group">
                                                 <label class="col-md-5">Status</label>
                                                 <div class="col-md-7">
@@ -61,11 +49,11 @@
                                             <div class="form-group">
                                                 <label class="col-md-5">Precheck Type</label>
                                                 <div class="col-md-7">
-                                                    <select class="form-control"><option>Weekly</option><option>Monthly</option><option>Yearly</option></select>
+                                                    <select class="form-control"><option>Daily</option></select>
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-5">Precheck Purpose</label>
+                                                <label class="col-md-5">Description</label>
                                                 <div class="col-md-7">
                                                     <input type="text" class="form-control" value="">
                                                 </div>

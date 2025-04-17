@@ -19,25 +19,19 @@
                                 <label class="col-sm-4">Transaction Date</label>
                                 <input class="form-control" type="date" value=""> 
 
-                                <label class="col-sm-4">Vehicle Code</label>
+                                <label class="col-sm-4">Code</label>
                                 <input class="form-control" type="text" value="">
                                     
-                                <label class="col-sm-4">Vehicle Type</label>
-                                <input class="form-control" type="text" value="">
-
-                                <label class="col-sm-4">Vehicle Name</label>
+                                <label class="col-sm-4">Name</label>
                                 <input class="form-control" type="text" value="">
 
                             </div>
                             <div class="col-md-6">
-                                <label class="col-md-4">Driver</label>
-                                <select class="form-control"><option value="">-- Select --</option><option value="1" selected="selected">[E0999] Budi Budiman</option><option value="2">[E0123] Iwan Darmawan</option></select>
-                                
                                 <label class="col-sm-4">Status</label>
                                 <input class="form-control" type="text" value="">  
 
                                 <label class="col-md-4">Precheck Type</label>
-                                <select class="form-control"><option>Weekly</option><option>Monthly</option><option>Yearly</option></select>
+                                <select class="form-control"><option>Daily</option></select>
                                 
                                 <label class="col-sm-4">Description</label>
                                 <input class="form-control" type="text" value="">
@@ -74,10 +68,8 @@
                                         <tr>
                                             <th data-width="15%" data-formatter="commands" data-align="center" data-header-align="center" data-sortable="false">Action</th>
                                             <th>Transaction Date</th>
-                                            <th>Vehicle Code</th>
-                                            <th>Vehicle Type</th>
-                                            <th>Vehicle Name</th>
-                                            <th>Driver</th>
+                                            <th>Code</th>
+                                            <th>Name</th>
                                             <th>Status</th>
                                             <th>Precheck Type</th>
                                             <th>Description</th>
@@ -95,8 +87,6 @@
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td>Weekly</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -109,8 +99,6 @@
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td>Weekly</td>
-                                            <td></td>
                                         </tr>
                                         <tr>
                                             <td>
@@ -122,8 +110,6 @@
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
-                                            <td>Monthly</td>
                                             <td></td>
                                         </tr>
                                     </tbody>
