@@ -1,8 +1,5 @@
-<!-- Google Font -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-
 <!-- Font Awesome -->
-<link rel="stylesheet" href="/adminlte/plugins/fontawesome-free/css/all.min.css">
+{{-- <link rel="stylesheet" href="/adminlte/plugins/fontawesome-free/css/all.min.css"> --}}
 
 <!-- DataTables -->
 <link media="all" type="text/css" rel="stylesheet" href="adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
@@ -19,6 +16,8 @@
 
 {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> --}}
 
+<!-- Google Font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 <!-- Bootstrap 3.3.7 -->
 <link rel="stylesheet" href="/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css">
 <!-- Font Awesome -->
@@ -29,6 +28,9 @@
 <link rel="stylesheet" href="/adminlte/dist/css/adminlte.css">
 <!-- AdminLTE Skins -->
 <link rel="stylesheet" href="/adminlte/dist/css/skins/skin-custom.css">
+<!-- fullCalendar -->
+<link rel="stylesheet" href="/adminlte/bower_components/fullcalendar/dist/fullcalendar.min.css">
+<link rel="stylesheet" href="/adminlte/bower_components/fullcalendar/dist/fullcalendar.print.min.css" media="print">
 
 <!-- Select2 -->
 <link rel="stylesheet" href="/adminlte/bower_components/select2/dist/css/select2.min.css">
@@ -39,7 +41,7 @@
 <link rel="stylesheet" href="/adminlte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
 
 <!-- daterange picker -->
-<link rel="stylesheet" href="/adminlte/plugins/daterangepicker/daterangepicker.css">
+{{-- <link rel="stylesheet" href="/adminlte/plugins/daterangepicker/daterangepicker.css"> --}}
 
 <!-- canvasjs chart -->
 <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>

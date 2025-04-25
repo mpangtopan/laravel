@@ -1,0 +1,48 @@
+/* resources/css/app.css */
+.room-calendar {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 12px;
+}
+
+.room-calendar th {
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+.room-calendar td {
+    padding: 5px;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+    height: 80px;
+    overflow: hidden;
+}
+
+.calendar-day.booked {
+    background-color: #fff3cd;
+}
+
+.status-ready {
+    background-color: #d4edda;
+}
+
+.status-clean-up {
+    background-color: #cce5ff;
+}
+
+.status-dirty {
+    background-color: #f8d7da;
+}
+
+.calendar-controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.current-month {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}

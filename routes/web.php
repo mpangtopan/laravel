@@ -403,3 +403,4 @@ Route::get('/compro', function () {
 Route::get('/calendar', function () {
     return view('roomcalendar');
 });
+

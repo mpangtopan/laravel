@@ -6,7 +6,6 @@
   <title>TEFMS</title>
 
   @include('layouts.inc.ext-css')
-  @include('layouts.inc.cal-css')
   
 </head>
 <body class="hold-transition skin-custom sidebar-mini">
@@ -36,7 +35,6 @@
     </div>
 
     @include('layouts.inc.ext-js')
-    @include('layouts.inc.cal-js')
 
   </div>
   @include('layouts.inc.footer')
