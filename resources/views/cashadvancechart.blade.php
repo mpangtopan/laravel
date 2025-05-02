@@ -6,7 +6,7 @@
         <div id="bg-swap" class="card mb-4">
           <div class="card-body p-2 m-2">
               <div class="greeting">
-                <h4 style="font-style:italic">
+                <h4>
                   Cash Advance Dashboard
                 </h4>
               </div>
